@@ -6,15 +6,9 @@ export const Gallery = props => {
   const [isViewerOpen, setIsViewerOpen] = useState(false);
 
   const data = [
-    { thumb: "img/portfolio/01-small.jpg", title: "Lorem Ipsum1" },
-    { thumb: "img/portfolio/02-small.jpg", title: "Lorem Ipsum2" },
-    { thumb: "img/portfolio/03-small.jpg", title: "Lorem Ipsum3" },
-    { thumb: "img/portfolio/04-small.jpg", title: "Lorem Ipsum4" },
-    { thumb: "img/portfolio/05-small.jpg", title: "Lorem Ipsum5" },
-    { thumb: "img/portfolio/06-small.jpg", title: "Lorem Ipsum6" },
-    { thumb: "img/portfolio/07-small.jpg", title: "Lorem Ipsum7" },
-    { thumb: "img/portfolio/08-small.jpg", title: "Lorem Ipsum8" },
-    { thumb: "img/portfolio/09-small.jpg", title: "Lorem Ipsum9" }
+    { thumb: "img/portfolio/transparent_gradient_leader.png", title: "Gradient Leader" },
+    { thumb: "img/portfolio/transparent_dark_agency_leader.png", title: "Dark Agency Leader" },
+    { thumb: "img/portfolio/transparent_pastel_leader.png", title: "Pastel Leader" }
   ];
 
   const images = data.map(obj => obj.thumb.replace("-small", "-large"));
@@ -34,7 +28,7 @@ export const Gallery = props => {
       <div className="container">
         <div className="section-title">
           <h2>Gallery</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed dapibus leonec.</p>
+          <p>Some sneak peeks at our upcoming drops.</p>
         </div>
         <div className="row">
           <div className="portfolio-items">
@@ -43,7 +37,7 @@ export const Gallery = props => {
                 <div className="portfolio-item cursor">
                   <div className="hover-bg">
                     <div className="hover-text">
-                      <h4>{title}</h4>
+                      <h3>{title}</h3>
                     </div>
                     <img src={thumb} className="img-responsive" alt="Project Title" />{" "}
                   </div>

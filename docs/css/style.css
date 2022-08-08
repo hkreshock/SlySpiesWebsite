@@ -222,12 +222,12 @@ header .intro-text {
 	padding-bottom: 200px;
 	text-align: center;
 }
-/* Features Section */
-#features {
+/* Vision Section */
+#vision {
 	padding: 100px 0;
 	background: #f6f6f6;
 }
-#features i.fa {
+#vision i.fa {
 	font-size: 38px;
 	margin-bottom: 20px;
 	transition: all 0.5s;
@@ -239,20 +239,20 @@ header .intro-text {
 	background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
 	box-shadow: 10px 10px 10px rgba(0,0,0,.05);
 }
-/* About Section */
-#about {
+/* Team Section */
+#team {
 	padding: 100px 0;
 }
-#about h3 {
+#team h3 {
 	font-size: 22px;
 	margin: 0 0 20px 0;
 }
-#about h2 {
+#team h2 {
 	position: relative;
 	margin-bottom: 15px;
 	padding-bottom: 15px;
 }
-#about h2::after {
+#team h2::after {
 	position: absolute;
 	content: "";
 	background: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
@@ -261,13 +261,13 @@ header .intro-text {
 	bottom: 0;
 	left: 0;
 }
-#about .about-text li {
+#team .team-text li {
 	margin-bottom: 6px;
 	margin-left: 6px;
 	list-style: none;
 	padding: 0;
 }
-#about .about-text li:before {
+#team .team-text li:before {
 	content: '\f00c';
 	font-family: 'FontAwesome';
 	color: #5ca9fb;
@@ -275,30 +275,30 @@ header .intro-text {
 	font-weight: 300;
 	padding-right: 8px;
 }
-#about img {
+#team img {
 	width: 520px;
 	margin-top: 10px;
 	background: #fff;
 	border-right: 0;
 	box-shadow: 0 0 50px rgba(0,0,0,0.06);
 }
-#about p {
+#team p {
 	line-height: 24px;
 	margin: 30px 0;
 }
-/* Services Section */
-#services {
+/* Lore Section */
+#lore {
 	padding: 100px 0;
 	background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
 	color: #fff;
 }
-#services .service-desc {
+#lore .service-desc {
 	margin: 10px 10px 20px;
 }
-#services h2 {
+#lore h2 {
 	color: #fff;
 }
-#services .section-title h2::after {
+#lore .section-title h2::after {
 	position: absolute;
 	content: "";
 	background: rgba(255,255,255,.3);
@@ -308,7 +308,7 @@ header .intro-text {
 	margin-left: -30px;
 	left: 50%;
 }
-#services i.fa {
+#lore i.fa {
 	font-size: 42px;
 	width: 120px;
 	height: 120px;
@@ -318,15 +318,15 @@ header .intro-text {
 	color: #fff;
 	box-shadow: 10px 10px 10px rgba(0,0,0,.05);
 }
-#services h3 {
+#lore h3 {
 	font-weight: 500;
 	padding: 5px 0;
 	color: #fff;
 }
-#services p {
+#lore p {
 	color: rgba(255,255,255,.75);
 }
-#services .service-desc {
+#lore .service-desc {
 	margin-bottom: 40px;
 }
 /* Portfolio Section */
@@ -373,45 +373,6 @@ header .intro-text {
 }
 .hover-bg:hover .hover-text {
 	opacity: 1;
-}
-/* Testimonials Section */
-#testimonials {
-	padding: 100px 0;
-	background: #f6f6f6;
-}
-#testimonials i {
-	color: #e6e6e6;
-	font-size: 32px;
-	margin-bottom: 20px;
-}
-.testimonial {
-	position: relative;
-	padding: 20px;
-}
-.testimonial-image {
-	float: left;
-	margin-right: 15px;
-}
-.testimonial-image, .testimonial-image img {
-	display: block;
-	width: 64px;
-	height: 64px;
-	border-radius: 50%;
-}
-.testimonial-content {
-	position: relative;
-	overflow: hidden;
-}
-.testimonial-content p {
-	margin-bottom: 0;
-	font-size: 14px;
-	font-style: italic;
-}
-.testimonial-meta {
-	margin-top: 10px;
-	font-size: 15px;
-	font-weight: 600;
-	color: #666;
 }
 /* Team Section */
 #team {
@@ -574,7 +535,7 @@ color: #777;
 }
 
 @media (max-width: 768px) {
-#about img {
+#team img {
 	margin: 50px 0;
 }
 }

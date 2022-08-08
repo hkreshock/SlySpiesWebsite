@@ -1,26 +1,13 @@
 {
     "Header": {
-
-        "title": "We are a Landing Page",
-        "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo nibh ante facilisis bibendum."
-
+        "title": "Welcome to Sly Spies",
+        "paragraph": "4444 Spies sneaking around the Solana blockchain. No roadmap. One game. Multiple surprises. Will you be the Slyest of them all? #WAGSPY"
     },
-    "About": {
-        "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-        "Why": [
-            "Lorem ipsum dolor",
-            "Tempor incididunt",
-            "Lorem ipsum dolor",
-            "Incididunt ut labore"
-        ],
-        "Why2": [
-            "Aliquip ex ea commodo",
-            "Lorem ipsum dolor",
-            "Exercitation ullamco",
-            "Lorem ipsum dolor"
-        ]
+    "Lore": {
+        "paragraph": "In the Sly Spies universe, three unique agencies stood for something larger than themselves. As THE GAME was nearing its beginning, they awaited the arrival of the final agency. Ever since the existence of the Dark Agency, they have felt that their loyalty to the MAKER of THE GAME has been unappreciated. This turned the Dark Agency to become mischievous geniuses... The Pastel stands as the highest regarded agency in the Sly Spies universe. The MAKER displayed favoritism towards the Pastel Agency, creating an unachievable level of greatness for the others... The Gradient Agency were the new Spies on the block, shy yet ambitious. They idolized the Pastel agency, longing to be viewed as equal through the eyes of the MAKER... All three agencies have arrived and awaited orders. The MAKER declared, 'This final mission is imperative and must be completed prior to the start of THE GAME. Prepare your bags, all agencies shall depart soon…' As the agencies prepared for their departure, the Gradient leader looked around and shouted, 'We all gonna spy'. The MAKER was quick to correct it and replied, 'I think you mean WAGSPY.' As they marched out the door, the Dark agency was quiet, but the the gradient and pastel agencies eagerly chanted 'WAGSPY! WAGSPY! WAGSPY!' The agencies arrived at an unknown planet with intentions to retrieve the secret intel. The Pastel and Gradient agencies stuck together to survey the land, but the Dark agency split off on their own path. Time was ticking. As the Pastel and Gradient Agencies surveyed the land for the secret intel, the Dark Agency was nowhere to be found. Likewise, the intel seemed impossible to find. Where could it be?",
+        "paragraph2": "The intel was found, but it laid in the hands of the Dark Agency leader. They were escaping. 'What have you done!?' exclaimed the Pastel leader. 'We were never appreciated here. The secret intel is ours. We defied THE MAKER' the Dark leader retorted. The Pastel and Gradient tried to chase them down, but it was too late. It was time to return. When the Pastel and Gradient Agencies arrived, THE MAKER had his back turned. Without moving a muscle, he roared, 'How could you let them steal the secret intel?! The Dark Agency can't get away with this. They shall be BANISHED from the Sly Spies universe."
     },
-    "Services": [{
+    "Team": [{
             "icon": "fa fa-wordpress",
             "name": "Lorem ipsum dolor",
             "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
@@ -53,38 +40,7 @@
 
 
     ],
-    "Testimonials": [{
-            "img": "img/testimonials/01.jpg",
-            "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-            "name": "John Doe"
-        },
-        {
-            "img": "img/testimonials/02.jpg",
-            "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-            "name": "Johnathan Doe"
-        },
-        {
-            "img": "img/testimonials/03.jpg",
-            "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-            "name": "John Doe"
-        },
-        {
-            "img": "img/testimonials/04.jpg",
-            "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-            "name": "Johnathan Doe"
-        },
-        {
-            "img": "img/testimonials/05.jpg",
-            "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-            "name": "John Doe"
-        },
-        {
-            "img": "img/testimonials/06.jpg",
-            "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-            "name": "Johnathan Doe"
-        }
-    ],
-    "Team": [{
+    "TeamMembers": [{
             "img": "img/team/01.jpg",
             "name": "John Doe",
             "job": "Director"
@@ -112,7 +68,7 @@
         "twitter": "twitter.com",
         "youtube": "youtube.com"
     },
-    "Features": [{
+    "Vision": [{
             "icon": "fa fa-comments-o",
             "title": "Lorem ipsum",
             "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
